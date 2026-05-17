@@ -1,7 +1,7 @@
 # Pro-Dashboard
 UI Website
 
-แดชบอร์ดสำหรับจัดการระบบหนังสือและข้อมูลภายในร้าน ออกแบบด้วย Figma โดยเน้นความทันสมัย ใช้งานง่าย และรองรับการแสดงผลที่เป็นระเบียบเหมาะกับระบบจัดการข้อมูล
+แดชบอร์ดสำหรับจัดการระบบจัดการข้อมูลสต็อคสินค้า ออกแบบด้วย Figma โดยเน้นความทันสมัย ใช้งานง่าย และรองรับการแสดงผลที่เป็นระเบียบเหมาะกับระบบจัดการข้อมูล
 
 ## Figma Design
 
@@ -12,17 +12,16 @@ UI Website
 
 * ระบบจัดการข้อมูลสต็อคสินค้า
 * หน้า Dashboard แสดงสถิติและข้อมูลภาพรวม
-* ระบบติดตามกิจกรรมและข้อมูลต่าง ๆ
+* ระบบติดตามข้อมูลต่าง ๆ
 * ระบบค้นหาและกรองข้อมูล
 * รองรับแนวคิด Responsive Design
 * UI/UX เรียบง่าย ทันสมัย ใช้งานสะดวก
-* ใช้งาน Components และ Auto Layout ใน Figma
+* ใช้งาน Components ใน Figma
 
 
 ## เครื่องมือที่ใช้
 
 * Figma
-* Auto Layout
 * Components & Variants
 * Design System
 
@@ -32,11 +31,12 @@ UI Website
 ```bash
 Bookband-prodashboard/
 │
-├── Dashboard Overview
-├── Analytics Section
-├── Book Management
-├── UI Components
-└── Responsive Layout
+├── assets
+├── components
+├── pages
+├── styles
+├── preview
+└── README.md
 ```
 
 
