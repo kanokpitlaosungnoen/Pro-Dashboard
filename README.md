@@ -8,6 +8,10 @@ UI Website
 ดูงานออกแบบได้ที่ : (https://www.figma.com/design/NCBg24kFyNLNxW0G2bwxk4/Bookband-prodashboard?node-id=1-2&t=wRufTwLQS1V8y5ua-1)
 
 
+## User Flow
+<img width="1392" height="737" alt="สกรีนช็อต 2026-05-18 142145" src="https://github.com/user-attachments/assets/30168605-f0d5-4f65-98a6-e9d97775867c" />
+
+
 ## ฟีเจอร์หลัก
 
 * ระบบจัดการข้อมูลสต็อคสินค้า
