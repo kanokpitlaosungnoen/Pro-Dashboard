@@ -1,161 +1,153 @@
-# Pro-Dashboard
-UI Website
+# 📦 ProDashboard
 
-แดชบอร์ดสำหรับจัดการระบบจัดการข้อมูลสต็อคสินค้า ออกแบบด้วย Figma โดยเน้นความทันสมัย ใช้งานง่าย และรองรับการแสดงผลที่เป็นระเบียบเหมาะกับระบบจัดการข้อมูล
+เว็บไซต์จัดการข้อมูลสินค้าและสต็อคสินค้า สำหรับร้านค้าและร้านค้าส่ง
+ออกแบบเพื่อช่วยให้การจัดการสินค้า การติดตามสต็อค และการดูข้อมูลยอดขายเป็นเรื่องง่ายในหน้า Dashboard เดียว
 
-## Figma Design
+## 🎯 Project Overview
 
-ดูงานออกแบบได้ที่ : (https://www.figma.com/design/NCBg24kFyNLNxW0G2bwxk4/Bookband-prodashboard?node-id=1-2&t=wRufTwLQS1V8y5ua-1)
+ProDashboard เป็นระบบสำหรับบริหารจัดการสินค้าและสต็อคภายในร้านค้า รองรับทั้งร้านค้าปลีกและร้านค้าส่ง โดยเน้นการใช้งานที่ง่าย ดูข้อมูลได้รวดเร็ว และช่วยลดปัญหาสต็อคขาดหรือสินค้าคงเหลือผิดพลาด
 
+ระบบถูกออกแบบในรูปแบบ Modern Dashboard UI โดยใช้แนวคิด Minimal + Clean Design เพื่อให้ผู้ใช้สามารถเข้าถึงข้อมูลสำคัญได้ง่ายและใช้งานได้สะดวกทั้งบน Desktop และ Tablet
 
-## User Flow
-<img width="1392" height="737" alt="สกรีนช็อต 2026-05-18 142145" src="https://github.com/user-attachments/assets/30168605-f0d5-4f65-98a6-e9d97775867c" />
+---
 
+## ✨ Features
 
-## ฟีเจอร์หลัก
+* 📊 Dashboard สรุปภาพรวมของร้านค้า
+* 📦 จัดการข้อมูลสินค้า
+* 🧾 เพิ่ม / แก้ไข / ลบ รายการสินค้า
+* 📉 ตรวจสอบจำนวนสินค้าคงเหลือ
+* 🚨 แจ้งเตือนสินค้าใกล้หมด
+* 📈 วิเคราะห์ยอดขายและสถิติ
+* 👥 จัดการข้อมูลลูกค้าและร้านค้าส่ง
+* 🔍 ค้นหาและกรองข้อมูลสินค้า
+* 🌙 รองรับ Dark Mode UI
+* 📱 Responsive Design รองรับหลายอุปกรณ์
 
-* ระบบจัดการข้อมูลสต็อคสินค้า
-* หน้า Dashboard แสดงสถิติและข้อมูลภาพรวม
-* ระบบติดตามข้อมูลต่าง ๆ
-* ระบบค้นหาและกรองข้อมูล
-* รองรับแนวคิด Responsive Design
-* UI/UX เรียบง่าย ทันสมัย ใช้งานสะดวก
-* ใช้งาน Components ใน Figma
+---
 
+## 🎨 UI/UX Design
 
-## เครื่องมือที่ใช้
+ออกแบบผ่าน [Figma](https://www.figma.com/?utm_source=chatgpt.com)
+โดยเน้นการจัดวางข้อมูลแบบ Dashboard ที่อ่านง่ายและลดความซับซ้อนของข้อมูลจำนวนมาก
 
-* Figma
-* Components & Variants
-* Design System
+### Design Style
 
+* Modern Dashboard
+* Minimal Interface
+* Clean Layout
+* Soft Color Palette
+* Data-focused UI
 
-## โครงสร้างภายในโปรเจกต์
+---
 
-```bash
-Bookband-prodashboard/
-│
-├── assets
-├── components
-├── pages
-├── styles
-├── preview
-└── README.md
-```
+## 🎨 Color Palette
 
+| Color            | Hex       |
+| ---------------- | --------- |
+| Primary Blue     | `#4F8CFF` |
+| Dark Navy        | `#1E293B` |
+| Light Background | `#F8FAFC` |
+| Success Green    | `#22C55E` |
+| Warning Orange   | `#F59E0B` |
+| Danger Red       | `#EF4444` |
 
-## จุดประสงค์ของโปรเจกต์
+---
 
-โปรเจกต์นี้ถูกสร้างขึ้นเพื่อ:
+## 🔤 Typography
 
-* พัฒนาทักษะด้าน UI/UX Design
-* ออกแบบ Dashboard สำหรับระบบร้านขายของ/ร้านค้าส่ง
-* ฝึกการจัดวางข้อมูลให้อ่านง่ายและใช้งานสะดวก
-* สร้างระบบดีไซน์ที่สามารถนำไปต่อยอดได้
+| Usage       | Font            | Size        |
+| ----------- | --------------- | ----------- |
+| Heading     | Poppins / Inter | 24px - 32px |
+| Sub Heading | Poppins / Inter | 18px - 22px |
+| Body Text   | Inter           | 14px - 16px |
+| Small Text  | Inter           | 12px        |
 
+---
 
-## กลุ่มผู้ใช้งานเป้าหมาย
+## 🧩 Design Components
 
-* เจ้าของร้านขายของ/ร้านค้าส่ง
-* ระบบจัดการสต็อกสินค้า
-* ผู้ดูแลระบบ (Admin)
-* โปรเจกต์ฝึกออกแบบ UI/UX
+* Sidebar Navigation
+* Statistic Cards
+* Product Table
+* Sales Chart
+* Notification Panel
+* Search & Filter Bar
+* Modal & Form Components
+* Responsive Grid System
 
+---
 
-## Preview
+## 🛠️ Technologies Used
 
-สามารถดู Prototype และหน้าจอทั้งหมดได้ผ่าน Figma
+### UI/UX
 
+* [Figma Design Prototype](https://www.figma.com/design/NCBg24kFyNLNxW0G2bwxk4/Bookband-prodashboard?node-id=1-2&t=wRufTwLQS1V8y5ua-1&utm_source=chatgpt.com)
 
-## Typography (รูปแบบตัวอักษร)
+---
 
-ระบบตัวอักษรของ BookBand Pro Dashboard ใช้ Font : Poppins และถูกออกแบบให้มีความเรียบง่าย อ่านง่าย และเหมาะกับการใช้งานบน Dashboard โดยเลือกใช้ลำดับขนาดตัวอักษร (Hierarchy) เพื่อช่วยให้ผู้ใช้งานสามารถแยกความสำคัญของข้อมูลได้ชัดเจน
-
-### Type Scale
-
-| Type Style | Weight   | Size  |
-| ---------- | -------- | ----- |
-| Display 1  | SemiBold | 40 px |
-| Headline 1 | SemiBold | 24 px |
-| Headline 2 | SemiBold | 18 px |
-| Headline 3 | SemiBold | 14 px |
-| Body       | Regular  | 13 px |
-| Button     | SemiBold | 14 px |
-
-### แนวคิดการออกแบบ Typography
-
-* ใช้ **SemiBold** สำหรับหัวข้อ เพื่อเพิ่มความโดดเด่นและช่วยให้มองเห็นได้ง่าย
-* ใช้ **Regular** สำหรับเนื้อหาปกติ เพื่อให้อ่านสบายตา
-* ขนาดตัวอักษรถูกจัดลำดับอย่างชัดเจน เพื่อสร้าง Visual Hierarchy
-* ปุ่ม (Button) ใช้ตัวอักษร SemiBold เพื่อเพิ่มความชัดเจนในการกดใช้งาน
-
-
-## Color System (ระบบสี)
-
-ชุดสีของ BookBand Pro Dashboard ถูกออกแบบให้มีความทันสมัย สะอาดตา และเหมาะกับระบบ Dashboard โดยเน้นโทนสีฟ้า เทา และสีสถานะต่าง ๆ เพื่อช่วยให้ผู้ใช้งานเข้าใจข้อมูลได้ง่ายขึ้น
-
-### Primary Colors
-
-| Color       | Hex Code 
-| ----------- | --------- 
-| Light Blue  | `#DEF1FF` 
-| Blue        | `#5C8FBC`
-| Bright Blue | `#1F73E6` 
-| Dark Blue   | `#0056A1` 
-| Navy Blue   | `#1C5097` 
-| Deep Navy   | `#252F6D` 
+## 📷 Preview
 
 
-### Neutral Colors
-
-| Color       | Hex Code  
-| ----------- | --------- 
-| White       | `#FFFFFF` 
-| Soft Gray   | `#F2F3F7` 
-| Light Gray  | `#FCFCFC` 
-| Border Gray | `#EDEDED` 
-| Gray        | `#D4D4D4` 
-| Medium Gray | `#BFBEBE` 
-| Dark Gray   | `#676767` 
-| Deep Gray   | `#5B5B5B` 
-| Black       | `#000000` 
-| Dark Black  | `#1E1E1E` 
 
 
-### Status Colors
+### Dashboard Overview
 
-| Color  | Hex Code  
-| ------ | --------- 
-| Orange | `#DD3A03` 
-| Red    | `#FF0000` 
-| Green  | `#2C8F43` 
+* แสดงสถิติยอดขาย
+* จำนวนสินค้าในคลัง
+* รายการสินค้าใกล้หมด
+* กราฟวิเคราะห์ข้อมูล
 
+### Product Management
 
-## Design Principle
+* เพิ่มสินค้าใหม่
+* แก้ไขข้อมูลสินค้า
+* ตรวจสอบ Stock แบบ Real-time
 
-แนวทางการออกแบบของโปรเจกต์นี้เน้น:
+---
 
-* ความเรียบง่าย (Minimal)
-* อ่านง่ายและใช้งานสะดวก
-* สีช่วยแยกประเภทข้อมูลอย่างชัดเจน
-* รองรับการขยายระบบในอนาคต
-* มีความสม่ำเสมอของ UI ทั้งระบบ (Consistency)
+## 🎯 Target Users
 
+* ร้านค้าปลีก
+* ร้านค้าส่ง
+* ธุรกิจขนาดเล็ก - กลาง
+* ผู้จัดการคลังสินค้า
+* เจ้าของธุรกิจ
 
-## สิ่งที่สามารถพัฒนาต่อได้
+---
 
-* เพิ่ม Dark Mode
-* เพิ่ม Animation ใน Prototype
-* รองรับเวอร์ชันมือถือ
-* เชื่อมต่อกับระบบฐานข้อมูลจริง
-* พัฒนาเป็นเว็บไซต์
+## 💡 Objectives
 
+* ลดปัญหาสต็อคผิดพลาด
+* จัดการสินค้าได้รวดเร็วขึ้น
+* ช่วยวิเคราะห์ข้อมูลการขาย
+* เพิ่มประสิทธิภาพในการบริหารร้านค้า
 
-## License
+---
 
-โปรเจกต์นี้จัดทำขึ้นเพื่อการศึกษาและใช้ใน Portfolio เท่านั้น
+## 👨‍💻 Team Members
 
+* UX/UI Designer
+* Front-End Developer
+* Back-End Developer
+* Database Designer
 
-## ผู้จัดทำ
+---
 
-Aumaim Kanokpit
+## 🚀 Future Improvements
+
+* ระบบแจ้งเตือนผ่าน Email
+* Export รายงาน PDF / Excel
+* ระบบจัดการออเดอร์
+* เชื่อมต่อ Barcode Scanner
+* ระบบ Login & Authentication
+* AI วิเคราะห์ยอดขาย
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes only.
+
+[1]: https://www.figma.com/templates/dashboard-designs/?utm_source=chatgpt.com "50+ Free Dashboard Design Templates & Components | Figma"
+[2]: https://shadcraft.com/templates/dashboard?utm_source=chatgpt.com "Figma Dashboard template - shadcn/ui kit for Figma, styled in seconds with tweakcn"
