@@ -34,7 +34,7 @@ The platform supports both retail and wholesale businesses, focusing on usabilit
 ---
 ## 🎨 Figma Pages Design
 
-All designed screens can be viewed in the **“All Pages”** folder on the left sidebar.
+All designed screens can be viewed in the **“All Pages.”** folder on the left sidebar.
 
 ---
 
